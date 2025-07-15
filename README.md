@@ -321,7 +321,6 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
     <th>F1-max</th>
     <th>IoU</th>
   </tr>
-</table>
 | ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
 |                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
 |                     | DFMGAN            | 90.90     | 94.43       | 90.33     | 94.57     | 60.42       | 60.54     | 45.83     |
@@ -336,7 +335,7 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
 |                     | DFMGAN            | 90.91     | 94.75       | 90.43     | 93.94     | 61.50       | 60.85     | 45.99     |
 | Average             | AnomalyDiffusion  | 93.95     | 97.08       | 94.24     | 96.48     | 68.06       | 65.40     | 46.49     |
 |                     | SeaS              | **96.72** | **98.41**   | **95.97** | **97.72** | **73.59**   | **69.86** | **57.66** |
-
+<table>
 
 
 **VisA**
