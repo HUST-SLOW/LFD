@@ -306,7 +306,7 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
 **MVTec AD**
 
 | Segmentation Models | Generative Models |             Image-level             |             Pixel-level             |           |
-| ------------------- | ----------------- | :---------------------------------: | :---------------------------------: | --------- |
+| ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
 |                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
 |                     | DFMGAN            | 90.90     | 94.43       | 90.33     | 94.57     | 60.42       | 60.54     | 45.83     |
 | BiSeNet V2          | AnomalyDiffusion  | 90.08     | 94.84       | 91.84     | 96.27     | 64.50       | 62.27     | 42.89     |
@@ -326,7 +326,7 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
 **VisA**
 
 | Segmentation Models | Generative Models |              Image-level            |             Pixel-level             |           |
-| ------------------- | ----------------- | :---------------------------------: | :--------------------------------- :| --------- |
+| ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
 |                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
 |                     | DFMGAN            | 63.07     | 62.63       | 66.48     | 75.91     | 9.17        | 15.00     | 9.66      |
 | BiSeNet V2          | AnomalyDiffusion  | 76.11     | 77.74       | 73.13     | 89.29     | 34.16       | 37.93     | 15.93     |
@@ -344,7 +344,7 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
 **MVTec 3D AD**
 
 | Segmentation Models | Generative Models |             Image-level             |             Pixel-level             |           |
-| ------------------- | ----------------- | :---------------------------------: | :---------------------------------: | --------- |
+| ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
 |                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
 |                     | DFMGAN            | 61.88     | 81.80       | 84.44     | 75.89     | 15.02       | 21.73     | 15.68     |
 | BiSeNet V2          | AnomalyDiffusion  | 61.49     | 81.35       | 85.36     | **92.39** | 15.15       | 20.09     | 14.70     |
