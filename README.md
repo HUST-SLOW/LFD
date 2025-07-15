@@ -305,7 +305,23 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
 
 **MVTec AD**
 
-| Segmentation Models | Generative Models |             Image-level             |             Pixel-level             |           |
+<table>
+  <tr>
+    <th rowspan="2">Segmentation Models</th>
+    <th rowspan="2">Generative Models</th>
+    <th colspan="3">Image-level</th>
+    <th colspan="4">Pixel-level</th>
+  </tr>
+  <tr>
+    <th>AUROC</th>
+    <th>AP</th>
+    <th>F1-max</th>
+    <th>AUROC</th>
+    <th>AP</th>
+    <th>F1-max</th>
+    <th>IoU</th>
+  </tr>
+</table>
 | ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
 |                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
 |                     | DFMGAN            | 90.90     | 94.43       | 90.33     | 94.57     | 60.42       | 60.54     | 45.83     |
@@ -325,7 +341,7 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
 
 **VisA**
 
-| Segmentation Models | Generative Models |              Image-level            |             Pixel-level             |           |
+| Segmentation Models | Generative Models |           | Image-level |           |           | Pixel-level |           |           |
 | ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
 |                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
 |                     | DFMGAN            | 63.07     | 62.63       | 66.48     | 75.91     | 9.17        | 15.00     | 9.66      |
@@ -343,7 +359,7 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
 
 **MVTec 3D AD**
 
-| Segmentation Models | Generative Models |             Image-level             |             Pixel-level             |           |
+| Segmentation Models | Generative Models |           | Image-level |           |           | Pixel-level |           |           |
 | ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
 |                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
 |                     | DFMGAN            | 61.88     | 81.80       | 84.44     | 75.89     | 15.02       | 21.73     | 15.68     |
