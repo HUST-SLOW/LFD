@@ -1,5 +1,5 @@
 # ✨LFD✨
-**This is the official PyTorch implementation of downstream segmentation models LFD for SeaS. The original paper is “Exploiting Low-level Representations for Ultra-Fast Road Segmentation”**
+**This is the official PyTorch implementation of LFD, the state-of-the-art downstream segmentation method in SeaS.**
 
  [**IEEE TITS**] **Exploiting Low-level Representations for Ultra-Fast Road Segmentation**
 
