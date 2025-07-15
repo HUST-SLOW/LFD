@@ -321,21 +321,43 @@ We report the quantitative results on the MVTec AD, VisA and MVTec 3D AD dataset
     <th>F1-max</th>
     <th>IoU</th>
   </tr>
-| ------------------- | ----------------- | --------- | ----------- | --------- | --------- | ----------- | --------- | --------- |
-|                     |                   | AUROC     | AP          | F1-max    | AUROC     | AP          | F1-max    | IoU       |
-|                     | DFMGAN            | 90.90     | 94.43       | 90.33     | 94.57     | 60.42       | 60.54     | 45.83     |
-| BiSeNet V2          | AnomalyDiffusion  | 90.08     | 94.84       | 91.84     | 96.27     | 64.50       | 62.27     | 42.89     |
-|                     | SeaS              | **96.00** | **98.14**   | **95.43** | **97.21** | **69.21**   | **66.37** | **55.28** |
-|                     | DFMGAN            | 90.74     | 94.43       | 90.37     | 92.33     | 57.01       | 56.91     | 46.64     |
-| UperNet             | AnomalyDiffusion  | 96.62     | 98.61       | 96.21     | 96.87     | 69.92       | 66.95     | 50.80     |
-|                     | SeaS              | **98.29** | **99.20**   | **97.34** | **97.87** | **74.42**   | **70.70** | **61.24** |
-|                     | DFMGAN            | 91.08     | 95.40       | 90.58     | 94.91     | 67.06       | 65.09     | 45.49     |
-| LFD                 | AnomalyDiffusion  | 95.15     | 97.78       | 94.66     | 96.30     | 69.77       | 66.99     | 45.77     |
-|                     | SeaS              | **95.88** | **97.89**   | **95.15** | **98.09** | **77.15**   | **72.52** | **56.47** |
-|                     | DFMGAN            | 90.91     | 94.75       | 90.43     | 93.94     | 61.50       | 60.85     | 45.99     |
-| Average             | AnomalyDiffusion  | 93.95     | 97.08       | 94.24     | 96.48     | 68.06       | 65.40     | 46.49     |
-|                     | SeaS              | **96.72** | **98.41**   | **95.97** | **97.72** | **73.59**   | **69.86** | **57.66** |
-<table>
+  <tr>
+    <td></td><td>DFMGAN</td><td>90.90</td><td>94.43</td><td>90.33</td><td>94.57</td><td>60.42</td><td>60.54</td><td>45.83</td>
+  </tr>
+  <tr>
+    <td>BiSeNet V2</td><td>AnomalyDiffusion</td><td>90.08</td><td>94.84</td><td>91.84</td><td>96.27</td><td>64.50</td><td>62.27</td><td>42.89</td>
+  </tr>
+  <tr>
+    <td></td><td>SeaS</td><td><b>96.00</b></td><td><b>98.14</b></td><td><b>95.43</b></td><td><b>97.21</b></td><td><b>69.21</b></td><td><b>66.37</b></td><td><b>55.28</b></td>
+  </tr>
+  <tr>
+    <td></td><td>DFMGAN</td><td>90.74</td><td>94.43</td><td>90.37</td><td>92.33</td><td>57.01</td><td>56.91</td><td>46.64</td>
+  </tr>
+  <tr>
+    <td>UperNet</td><td>AnomalyDiffusion</td><td>96.62</td><td>98.61</td><td>96.21</td><td>96.87</td><td>69.92</td><td>66.95</td><td>50.80</td>
+  </tr>
+  <tr>
+    <td></td><td>SeaS</td><td><b>98.29</b></td><td><b>99.20</b></td><td><b>97.34</b></td><td><b>97.87</b></td><td><b>74.42</b></td><td><b>70.70</b></td><td><b>61.24</b></td>
+  </tr>
+  <tr>
+    <td></td><td>DFMGAN</td><td>91.08</td><td>95.40</td><td>90.58</td><td>94.91</td><td>67.06</td><td>65.09</td><td>45.49</td>
+  </tr>
+  <tr>
+    <td>LFD</td><td>AnomalyDiffusion</td><td>95.15</td><td>97.78</td><td>94.66</td><td>96.30</td><td>69.77</td><td>66.99</td><td>45.77</td>
+  </tr>
+  <tr>
+    <td></td><td>SeaS</td><td><b>95.88</b></td><td><b>97.89</b></td><td><b>95.15</b></td><td><b>98.09</b></td><td><b>77.15</b></td><td><b>72.52</b></td><td><b>56.47</b></td>
+  </tr>
+  <tr>
+    <td></td><td>DFMGAN</td><td>90.91</td><td>94.75</td><td>90.43</td><td>93.94</td><td>61.50</td><td>60.85</td><td>45.99</td>
+  </tr>
+  <tr>
+    <td>Average</td><td>AnomalyDiffusion</td><td>93.95</td><td>97.08</td><td>94.24</td><td>96.48</td><td>68.06</td><td>65.40</td><td>46.49</td>
+  </tr>
+  <tr>
+    <td></td><td>SeaS</td><td><b>96.72</b></td><td><b>98.41</b></td><td><b>95.97</b></td><td><b>97.72</b></td><td><b>73.59</b></td><td><b>69.86</b></td><td><b>57.66</b></td>
+  </tr>
+</table>
 
 
 **VisA**
