@@ -9,3 +9,4 @@ scikit-learn==1.4.1.post1
 Pillow==9.5.0
 matplotlib==3.8.3
 scikit-image==0.20.0
+torchvision==0.22.1
