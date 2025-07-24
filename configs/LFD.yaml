@@ -1,0 +1,36 @@
+datasets:
+  dataset_name: 'mvtec_ad'   # mvtec_ad, mvtec_3d_ad, visa
+  data_path: './data/original_dataset' # original dataset path
+  generated_data_path: './data/generated_dataset' # generated dataset path
+  img_resize: 256            
+  uni_training: True        # True: all categories share one model，False: One model for one category.
+
+device: '0'
+
+outputs:
+  ckpt_path: './outputs/mvtec_ad/checkpoints'
+  vis_path: './outputs/mvtec_ad/results'
+
+training:
+  state: True
+  scale_factor: 2
+  start_epoch: 0
+  max_epochs: 150
+  save_epoch: 10
+  hide_bar: False
+  batch_size: 8
+  num_workers: 8
+  lr: 0.01
+
+testing:
+  state: True
+  test_epoch: 100      # mvtec_ad: 100, mvtec_3d_ad: 100, visa_ad: 10
+  vis: True
+  
+eval_speed:
+  state: False
+  size: [256, 256]
+  num_channels: 3
+  batch_size: 1
+  classes: 2
+  iter: 1000
